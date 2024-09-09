@@ -1,6 +1,6 @@
 // Define API URL based on the environment (local or production)
 const API_URL = window.location.hostname === 'localhost' ? 
-    'http://localhost:3000' : 'https://your-backend-url.com';
+    'http://localhost:3000' : 'https://user-management-api-z6m0.onrender.com';
 
 // Fetch and display users when the page loads
 document.addEventListener("DOMContentLoaded", getUsers);
